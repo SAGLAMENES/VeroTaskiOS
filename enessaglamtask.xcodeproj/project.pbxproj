@@ -84,28 +84,84 @@
 		C503BCF52B7A2EC900C4AB12 /* enessaglamtask */ = {
 			isa = PBXGroup;
 			children = (
-				C503BD162B7A2EED00C4AB12 /* TaskPresentations.swift */,
-				C503BD172B7A2EED00C4AB12 /* DataPersistingManager.swift */,
-				C503BD1A2B7A2EFE00C4AB12 /* DataService.swift */,
-				C503BD1B2B7A2EFE00C4AB12 /* TaskService.swift */,
-				C503BD212B7A2F0E00C4AB12 /* TaskList.storyboard */,
-				C503BD1E2B7A2F0E00C4AB12 /* TaskListBuilder.swift */,
-				C503BD222B7A2F0E00C4AB12 /* TaskListCell.swift */,
-				C503BD1F2B7A2F0E00C4AB12 /* TaskListContracts.swift */,
-				C503BD202B7A2F0E00C4AB12 /* TaskListVC.swift */,
-				C503BD232B7A2F0E00C4AB12 /* TaskListViewModel.swift */,
-				C503BD2A2B7A2F1900C4AB12 /* QrCodeScanner.storyboard */,
-				C503BD2B2B7A2F1900C4AB12 /* QRCodeViewController.swift */,
-				C503BD2C2B7A2F1900C4AB12 /* QRScannerBuilder.swift */,
-				C503BD302B7A2F2500C4AB12 /* TaskModel.swift */,
-				C503BCF62B7A2EC900C4AB12 /* AppDelegate.swift */,
-				C503BCF82B7A2EC900C4AB12 /* SceneDelegate.swift */,
+				C503BD3B2B7A309200C4AB12 /* Core */,
+				C503BD3A2B7A307D00C4AB12 /* Delegates */,
+				C503BD392B7A307300C4AB12 /* Dtos */,
+				C503BD382B7A305700C4AB12 /* QrScanner */,
+				C503BD372B7A303500C4AB12 /* New Group */,
+				C503BD362B7A302300C4AB12 /* Presentations */,
+				C503BD352B7A300E00C4AB12 /* TaskList */,
 				C503BD022B7A2ECA00C4AB12 /* Assets.xcassets */,
 				C503BD042B7A2ECA00C4AB12 /* LaunchScreen.storyboard */,
 				C503BD072B7A2ECA00C4AB12 /* Info.plist */,
 				C503BCFF2B7A2EC900C4AB12 /* enessaglamtask.xcdatamodeld */,
 			);
 			path = enessaglamtask;
+			sourceTree = "<group>";
+		};
+		C503BD352B7A300E00C4AB12 /* TaskList */ = {
+			isa = PBXGroup;
+			children = (
+				C503BD212B7A2F0E00C4AB12 /* TaskList.storyboard */,
+				C503BD1E2B7A2F0E00C4AB12 /* TaskListBuilder.swift */,
+				C503BD222B7A2F0E00C4AB12 /* TaskListCell.swift */,
+				C503BD1F2B7A2F0E00C4AB12 /* TaskListContracts.swift */,
+				C503BD202B7A2F0E00C4AB12 /* TaskListVC.swift */,
+				C503BD232B7A2F0E00C4AB12 /* TaskListViewModel.swift */,
+			);
+			path = TaskList;
+			sourceTree = "<group>";
+		};
+		C503BD362B7A302300C4AB12 /* Presentations */ = {
+			isa = PBXGroup;
+			children = (
+				C503BD162B7A2EED00C4AB12 /* TaskPresentations.swift */,
+			);
+			path = Presentations;
+			sourceTree = "<group>";
+		};
+		C503BD372B7A303500C4AB12 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				C503BD1B2B7A2EFE00C4AB12 /* TaskService.swift */,
+				C503BD1A2B7A2EFE00C4AB12 /* DataService.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		C503BD382B7A305700C4AB12 /* QrScanner */ = {
+			isa = PBXGroup;
+			children = (
+				C503BD2A2B7A2F1900C4AB12 /* QrCodeScanner.storyboard */,
+				C503BD2B2B7A2F1900C4AB12 /* QRCodeViewController.swift */,
+				C503BD2C2B7A2F1900C4AB12 /* QRScannerBuilder.swift */,
+			);
+			path = QrScanner;
+			sourceTree = "<group>";
+		};
+		C503BD392B7A307300C4AB12 /* Dtos */ = {
+			isa = PBXGroup;
+			children = (
+				C503BD302B7A2F2500C4AB12 /* TaskModel.swift */,
+			);
+			path = Dtos;
+			sourceTree = "<group>";
+		};
+		C503BD3A2B7A307D00C4AB12 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				C503BCF62B7A2EC900C4AB12 /* AppDelegate.swift */,
+				C503BCF82B7A2EC900C4AB12 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		C503BD3B2B7A309200C4AB12 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C503BD172B7A2EED00C4AB12 /* DataPersistingManager.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
